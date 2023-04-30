@@ -1,4 +1,4 @@
-.title_contain {
+.title_container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,7 +19,7 @@
 }
 
 @media (max-width: 710px) {
-    .title_contain {
+    .title_container {
         width: 90%;
         font-size: 35px;
 

@@ -10,7 +10,7 @@ const Navbar = () => {
         <header className={styles.navbar}>
 
             <Logo />
-            <div id='nav' className={`${styles.nav_contain} ${styles.nav_responsive}`}>
+            <div id='nav' className={`${styles.nav_container} ${styles.nav_responsive}`}>
 
                 <nav className={styles.nav}>
                     <ul className={styles.nav_items}>

@@ -14,7 +14,7 @@
 
 }
 
-.logo_contain {
+.logo_container {
     background: #FFFFFF;
     width: 80px;
     height: 90%;
@@ -24,12 +24,12 @@
     align-items: center;
 }
 
-.logo_contain img {
+.logo_container img {
     margin: auto;
     object-fit: contain;
 }
 
-.icons_contain {
+.icons_container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -73,7 +73,7 @@
     color: #4267B2
 }
 
-.nav_contain{
+.nav_container{
     width: 75%;
     height: 100%;
 
@@ -137,7 +137,7 @@
 
         justify-content: space-between;
     }
-    .nav_contain{
+    .nav_container{
         background: #a0407b41;
         position: fixed;
         top: 5.8rem;
@@ -173,7 +173,7 @@
     .nav_responsive {
         right: -100%;
     }
-    .logo_contain {
+    .logo_container {
         margin-left: 60px;
     }
 
