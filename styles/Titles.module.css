@@ -1,0 +1,27 @@
+.title_contain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+    height: 71px;
+    width: 50%;
+    background-color: #FF66C4;
+
+
+    font-family: 'Abril Fatface', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+@media (max-width: 710px) {
+    .title_contain {
+        width: 90%;
+        font-size: 35px;
+
+    }
+}

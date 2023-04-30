@@ -1,0 +1,100 @@
+.banner_contain {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    justify-content: flex-end;
+    border: none;
+
+}
+
+.button {
+    width: 446px;
+    height: 52px;
+    border-radius: 20px;
+    margin-bottom: 52px;
+    background-color: #00BAC7;
+    box-shadow: 0px 5px 4px 0px #074E8640;
+    padding: 12.5px 0;
+    color: #FFFFFF;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-left: 40%;
+
+    transition: all ease .3s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #FF66C4;
+}
+
+.banner_front {
+    height: 85vh;
+    background-image: url("/images/front-page.svg");
+}
+
+.banner_products {
+    height: 78vh;
+    background-image: url("/images/products.svg");
+}
+
+.products_contain {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+.products_text {
+    height:auto;
+    width: 60%;
+    color:#FFFFFF;
+    display: flex;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    align-items: center;
+    padding:  60px 25px;
+    background-color: #FF66C4;
+    box-shadow: 5px 5px 15px 0px #57003640;
+    margin: auto;
+
+}
+
+.products_text a{
+    border-bottom:  2px #FFFFFF;
+    border-bottom-style: double;
+}
+
+
+
+
+
+
+@media (max-width: 710px) {
+    .banner_front {
+        background-position: 74%;
+    }
+
+    .button {
+        width: 70%;
+        margin-left: 0;
+
+    }
+    .products_text {
+        font-size: 30px;
+        width: 90%;
+    }    
+}
