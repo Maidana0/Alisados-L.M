@@ -12,6 +12,7 @@ body {
 
 body {
   background-color: #fff;
+  height: 100vh;
 }
 
 a {
@@ -21,3 +22,10 @@ a {
 li{
   list-style: none;
 }
+main{
+  min-height: 85vh;
+}
+
+*::-webkit-scrollbar {width: 5px; height: 5px; }
+*::-webkit-scrollbar-track {background: #FF66C4; }
+*::-webkit-scrollbar-thumb {background-color: #56DEE7;; border-radius: 5px; }

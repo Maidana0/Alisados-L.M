@@ -1,48 +1,46 @@
 import styles from '@Fran&Miguel/styles/Layout.module.css'
-import Image from 'next/image'
+import { Icons, Logo } from './components';
+import { Sling as Hamburger } from 'hamburger-react'
 
-
-const icons = ['whatsapp', 'instagram', 'facebook']
+const paths = ['SOBRE MÍ', 'SERVICIOS', 'PRODUCTOS', 'CONTACTOS']
 
 
 const Navbar = () => {
     return (
         <header className={styles.navbar}>
-            <div className={styles.logo_contain}>
-                <Image
-                    src={'logo.svg'}
-                    width={68}
-                    height={40}
-                    alt={'Alisados.LM'}
-                    priority
-                />
+
+            <Logo />
+            <div id='nav' className={`${styles.nav_contain} ${styles.nav_responsive}`}>
+
+                <nav className={styles.nav}>
+                    <ul className={styles.nav_items}>
+                        {paths.map(path => (
+                            <li key={path} className={styles.nav_links}>{path}</li>
+                        ))}
+                    </ul>
+                    <Icons />
+                </nav>
+
             </div>
-            <nav id='nav' className={styles.nav}>
-                <ul className={styles.nav_items}>
-                    <li className={styles.nav_links}>SOBRE MÍ</li>
-                    <li className={styles.nav_links}>SERVICIOS</li>
-                    <li className={styles.nav_links}>PRODUCTOS</li>
-                    <li className={styles.nav_links}>CONTACTOS</li>
-                </ul>
 
-                <div>
-                    {/* {
-                    icons.map(icon => (
-                        <div className={`${styles.icons_contain} ${styles.icon}`}>
-                            <Image
-                                src={`/icons/${icon}.svg`}
-                                width={80}
-                                height={80}
-                                alt={icon}
-                                priority
-                            />
-                        </div>
-                    ))
-                } */}
-                </div>
 
-            </nav>
-        </header>
+            <div className={styles.btn_burger}>
+                <Hamburger
+                    color="#FFF"
+                    onToggle={toggled => {
+                        const nav = document.getElementById('nav')
+                        if (toggled) {
+                            nav.classList.remove(styles.nav_responsive)
+                        }
+                        else {
+                            nav.classList.add(styles.nav_responsive)
+                        }
+                        // toggled ?  nav.classList.remove(styles.nav_responsive)
+                        //  :
+                        //   nav.classList.add(styles.nav_responsive)
+                    }} />
+            </div>
+        </header >
     )
 }
 
