@@ -2,7 +2,7 @@ import styles from "@Fran&Miguel/styles/About.module.css"
 import Image from "next/image"
 const About = () => {
     return (
-        <div className={styles.about_container}>
+        <div id="about" className={styles.about_container}>
             <h1 className={styles.about_title}>
                 SOBRE MÍ
             </h1>

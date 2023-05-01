@@ -1,8 +1,15 @@
 import styles from '@Fran&Miguel/styles/Layout.module.css'
 import { Icons, Logo } from './components';
 import { Sling as Hamburger } from 'hamburger-react'
+import Link from 'next/link';
 
-const paths = ['SOBRE MÍ', 'SERVICIOS', 'PRODUCTOS', 'CONTACTOS']
+// const paths = ['SOBRE MÍ', 'SERVICIOS', 'PRODUCTOS', 'CONTACTOS']
+const paths = [
+    { path: "about", content: 'sobre mí' },
+    { path: "services", content: 'servicios' },
+    { path: "products", content: 'productos' },
+    { path: "contact", content: 'contacto' },
+]
 
 
 const Navbar = () => {
@@ -14,8 +21,14 @@ const Navbar = () => {
 
                 <nav className={styles.nav}>
                     <ul className={styles.nav_items}>
-                        {paths.map(path => (
-                            <li key={path} className={styles.nav_links}>{path}</li>
+                        {paths.map(({ path, content }) => (
+                            <Link key={path} href={`/#${path}`} scroll={false}>
+
+                                <li className={styles.nav_links}>
+                                    {content}
+                                </li>
+                            </Link>
+
                         ))}
                     </ul>
                     <Icons />
