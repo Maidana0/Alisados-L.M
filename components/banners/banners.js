@@ -9,7 +9,7 @@ export const Front = () => (
 
 
 export const Products = () => (
-  <div  id="productos" className={`${styles.banner_container} ${styles.banner_products}`}>
+  <div  id="products" className={`${styles.banner_container} ${styles.banner_products}`}>
     <div className={styles.products_container}>
 
       <div className={titles.title_container}>
