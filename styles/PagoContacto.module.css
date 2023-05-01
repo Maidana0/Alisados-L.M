@@ -1,0 +1,61 @@
+.title {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 10rem;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #FF66C4;
+}
+
+.containerFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.dflex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dflex p{
+    margin-top: 20px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27.1445px;
+    line-height: 16px;
+    text-align: center;
+    color: #4B4646;
+}
+
+.buttonalis{
+    width: 446px;
+    height: 52px;
+    border-radius: 20px;
+    margin-bottom: 52px;
+    background-color: #00BAC7;
+    box-shadow: 0px 5px 4px 0px #074E8640;
+    padding: 12.5px 0;
+    color: #FFFFFF;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    transition: all ease .3s;
+    cursor: pointer;
+}
+
+.buttonalis:hover{
+    background-color: #FF66C4;
+}
