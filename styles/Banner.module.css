@@ -25,12 +25,15 @@
     line-height: 25px;
     letter-spacing: 0em;
     text-align: center;
-    margin-left: 40%;
-
     transition: all ease .3s;
     cursor: pointer;
 }
-
+.button_contact{
+    margin: auto;
+}
+.button_front{
+    margin-left: 40%;
+}
 .button:hover {
     background-color: #FF66C4;
 }
@@ -98,8 +101,9 @@
 
     .button {
         width: 70%;
+    }
+    .button_front{
         margin-left: 0;
-
     }
     .products_text {
         font-size: 30px;

@@ -18,7 +18,17 @@
 
 }
 
-
+.normal_title {
+    padding-top: 1rem;
+    margin-left: 10rem;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #FF66C4;
+}
 
 
 
@@ -68,7 +78,9 @@
     .title_container {
         width: 90%;
         font-size: 35px;
-
+    }
+    .normal_title {
+        margin: 1rem auto 2rem
     }
     .attention_container p {
     padding: 1rem;

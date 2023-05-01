@@ -4,6 +4,7 @@ import { Front, GoogleMaps, Products } from "@Fran&Miguel/components/banners/ban
 import Layout from "@Fran&Miguel/components/layout/layout";
 import Services from "@Fran&Miguel/components/cards/Services";
 import PagoContacto from "@Fran&Miguel/components/PagoContacto/PagoContacto";
+import Contact from "@Fran&Miguel/components/PagoContacto/contact";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Services/>
       <Products />
       <PagoContacto/>
+      <Contact/>
       <Attention />
       <GoogleMaps />
     </Layout>

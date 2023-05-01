@@ -7,18 +7,7 @@
     min-height: 100vh;
 }
 
-.about_title {
-    padding-top: 1rem;
-    margin-left: 10rem;
-    font-family: 'Abril Fatface', cursive;
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 54px;
-    letter-spacing: 0.1em;
-    text-align: left;
-    color: #FF66C4;
 
-}
 
 .about {
     width: 100%;
@@ -63,10 +52,6 @@
     gap: 0;
 
     }
-    .about_title {
-        margin: 1rem auto 2rem
-    }
-
     .about {
         flex-direction: column;
         width: 90%;
