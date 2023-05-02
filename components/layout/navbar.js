@@ -3,7 +3,6 @@ import { Icons, Logo } from './components';
 import { Sling as Hamburger } from 'hamburger-react'
 import Link from 'next/link';
 
-// const paths = ['SOBRE MÍ', 'SERVICIOS', 'PRODUCTOS', 'CONTACTOS']
 const paths = [
     { path: "about", content: 'sobre mí' },
     { path: "services", content: 'servicios' },
@@ -24,7 +23,7 @@ const Navbar = () => {
                         {paths.map(({ path, content }) => (
                             <Link key={path} href={`/#${path}`} scroll={false}>
 
-                                <li className={styles.nav_links}>
+                                <li className={`${styles.nav_links} ${styles.active}`}>
                                     {content}
                                 </li>
                             </Link>

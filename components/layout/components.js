@@ -1,5 +1,7 @@
 import { BsWhatsapp, BsInstagram, BsFacebook } from "react-icons/bs";
-import styles from '@Fran&Miguel/styles/Layout.module.css'
+import styles from '@Fran&Miguel/styles/Icons.module.css'
+import logoLayout from '@Fran&Miguel/styles/Layout.module.css'
+
 import Image from "next/image";
 
 export const Icons = () => <div className={styles.icons_container}>
@@ -22,7 +24,7 @@ export const Icons = () => <div className={styles.icons_container}>
 
 
 
-export const Logo = () => <div className={styles.logo_container}>
+export const Logo = () => <div className={logoLayout.logo_container}>
     <Image
         src={'logo.svg'}
         width={65}

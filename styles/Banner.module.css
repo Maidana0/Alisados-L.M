@@ -25,12 +25,15 @@
     line-height: 25px;
     letter-spacing: 0em;
     text-align: center;
-    margin-left: 40%;
-
     transition: all ease .3s;
     cursor: pointer;
 }
-
+.button_contact{
+    margin: auto;
+}
+.button_front{
+    margin-left: 40%;
+}
 .button:hover {
     background-color: #FF66C4;
 }
@@ -43,6 +46,7 @@
 .banner_products {
     min-height: 100vh;
     background-image: url("/images/products.svg");
+    margin-bottom: 2rem;
 }
 
 .products_container {
@@ -91,6 +95,30 @@
     border: none;
 }
 
+/* INFO PAY & CONTACT */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    min-height: 55vh;
+    padding-bottom: 2rem;
+}
+
+.text_pay {
+    padding-top: 1.5rem;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27.1445px;
+    line-height: 16px;
+    color: #4B4646;
+    padding-bottom: 10px;
+}
+/* - */
+
 @media (max-width: 710px) {
     .banner_front {
         background-position: 74%;
@@ -98,8 +126,9 @@
 
     .button {
         width: 70%;
+    }
+    .button_front{
         margin-left: 0;
-
     }
     .products_text {
         font-size: 30px;
