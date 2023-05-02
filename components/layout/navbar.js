@@ -23,7 +23,7 @@ const Navbar = () => {
                         {paths.map(({ path, content }) => (
                             <Link key={path} href={`/#${path}`} scroll={false}>
 
-                                <li className={styles.nav_links}>
+                                <li className={`${styles.nav_links} ${styles.active}`}>
                                     {content}
                                 </li>
                             </Link>

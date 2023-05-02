@@ -3,8 +3,8 @@ import Attention from "@Fran&Miguel/components/attention";
 import { Front, GoogleMaps, Products } from "@Fran&Miguel/components/banners/banners";
 import Layout from "@Fran&Miguel/components/layout/layout";
 import Services from "@Fran&Miguel/components/cards/Services";
-import PagoContacto from "@Fran&Miguel/components/PagoContacto/PagoContacto";
 import Contact from "@Fran&Miguel/components/PagoContacto/contact";
+import InfoPay from "@Fran&Miguel/components/PagoContacto/infoPay";
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
       <About/>
       <Services/>
       <Products />
-      <PagoContacto/>
+      <InfoPay/>
       <Contact/>
       <Attention />
       <GoogleMaps />
