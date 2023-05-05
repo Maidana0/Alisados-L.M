@@ -38,7 +38,7 @@ export default function Services() {
         "Es apto para todo tipo de cabellos."
     ];
     return (
-        <>
+        <div id='services'>
             <h2 className={styles.title}>SERVICIOS</h2>
             <div className={styles.services}>
                 <Card title={"Alisados"} imageSrc={"/images/alisado.svg"} alter={"alisados"} content={alisados} previous={true} before={"/images/alisadobefore.svg"} after={"/images/alisadoafter.svg"}>
@@ -80,6 +80,6 @@ export default function Services() {
 
             <Anotaciones/>
 
-        </>
+        </div>
     )
 }
