@@ -18,7 +18,7 @@ export const Products = () => (
 
       <div className={styles.products_text}>
         <span>
-          Ahora también podés encontrar <a href='/'>acá</a> productos ideales para el cuidado de tu cabello
+          Ahora también podés encontrar <a target="_blank" href='https://instagram.com/alisadoss.lm?igshid=Yjk4NWM2ZWVkMw=='>acá</a> productos ideales para el cuidado de tu cabello
         </span>
       </div>
     </div>

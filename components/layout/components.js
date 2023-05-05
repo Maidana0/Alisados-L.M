@@ -5,21 +5,24 @@ import logoLayout from '@Fran&Miguel/styles/Layout.module.css'
 import Image from "next/image";
 
 export const Icons = () => <div className={styles.icons_container}>
-    <div className={`${styles.icons_ellipse} ${styles.whatsapp}`}>
+    <a href='https://wa.me/qr/6EFPTR54CGIPN1' target="_blank"
+        className={`${styles.icons_ellipse} ${styles.whatsapp}`}>
         <BsWhatsapp title='Whatsapp'
             alt={'Whatsapp'}
             size={'2em'} />
-    </div>
-    <div className={`${styles.icons_ellipse} ${styles.instagram}`}>
+    </a>
+    <a href='https://instagram.com/alisadoss.lm?igshid=Yjk4NWM2ZWVkMw==' target="_blank"
+        className={`${styles.icons_ellipse} ${styles.instagram}`}>
         <BsInstagram title='Instagram'
             alt={'Instagram'}
             size={'2em'} />
-    </div>
-    <div className={`${styles.facebook}`}>
+    </a>
+    <a href='https://m.facebook.com/111515650989942/' target="_blank" className={`${styles.facebook}`}>
         <BsFacebook title='Facebook'
             alt={'Facebook'}
-            size={'2.8em'} />
-    </div>
+            size={'2.8em'}
+        />
+    </a>
 </div>
 
 

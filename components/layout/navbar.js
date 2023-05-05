@@ -41,15 +41,9 @@ const Navbar = () => {
                     color="#FFF"
                     onToggle={toggled => {
                         const nav = document.getElementById('nav')
-                        if (toggled) {
-                            nav.classList.remove(styles.nav_responsive)
-                        }
-                        else {
-                            nav.classList.add(styles.nav_responsive)
-                        }
-                        // toggled ?  nav.classList.remove(styles.nav_responsive)
-                        //  :
-                        //   nav.classList.add(styles.nav_responsive)
+                        toggled ?  nav.classList.remove(styles.nav_responsive)
+                         :
+                          nav.classList.add(styles.nav_responsive)
                     }} />
             </div>
         </header >
