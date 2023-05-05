@@ -3,7 +3,7 @@ import titles from '@Fran&Miguel/styles/Titles.module.css'
 
 export const Front = () => (
   <div className={`${styles.banner_container} ${styles.banner_front}`}>
-    <button className={`${styles.button} ${styles.button_front}`}>Pedir Turno</button>
+    <a  target="_blank" href='https://wa.me/qr/6EFPTR54CGIPN1' className={`${styles.button} ${styles.button_front}`}>Pedir Turno</a>
   </div>
 )
 

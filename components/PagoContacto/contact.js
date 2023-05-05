@@ -45,9 +45,9 @@ const Contact = () => {
 
             </div>
 
-            <button className={`${styles.button} ${styles.button_contact}`}>
+            <a target="_blank" href='https://wa.me/qr/6EFPTR54CGIPN1' className={`${styles.button} ${styles.button_contact}`}>
                 Reservar Turno
-            </button>
+            </a>
 
         </div>
     </>)
