@@ -10,7 +10,7 @@
 
 
 .about {
-    width: 100%;
+    width: 60vw;
     height: auto;
     display: flex;
     align-items: center;
@@ -46,7 +46,7 @@
     color: #4B4646;
 }
 
-@media (max-width: 710px) {
+@media (max-width: 768px) {
     .about_container {
         margin: 2rem auto;
         gap: 0;
@@ -55,7 +55,12 @@
 
     .about {
         flex-direction: column;
-        width: 90%;
+        width: 90vw;
         padding: 0;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    .about {
+        width: 85vw;
     }
 }

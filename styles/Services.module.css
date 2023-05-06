@@ -4,16 +4,18 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin-bottom: 600px;
+    margin-bottom: 700px;
 }
 
 .img {
-    width: 560px;
-    height: 468px;
+    background-color: #FF66C4;
+    height: auto;
+    width: 35vw;
+    height: 100%;
 }
 
 .card {
-    height: 468px;
+    height: 500px;
     display: flex;
     transition-duration: 500ms;
     transition-delay: 10ms;
@@ -23,7 +25,7 @@
 }
 
 .cardReverse {
-    height: 468px;
+    height: 500px;
     display: flex;
     transition-duration: 500ms;
     transition-delay: 10ms;
@@ -54,7 +56,7 @@
 
 .title {
     margin-top: 2rem;
-    margin-bottom: 45rem;
+    margin-bottom: 50rem;
     margin-left: 10rem;
     font-family: 'Abril Fatface', cursive;
     font-size: 40px;
@@ -92,8 +94,8 @@
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 1.6rem;
-    line-height: 30px;
+    font-size: 1.2rem;
+    line-height: 35px;
     list-style: disc;
 }
 
@@ -274,7 +276,7 @@ margin-right: 2rem;
     .imagesAB{
         margin-top: 6px;
         margin-bottom: 6px;
-        width: 70vw;
+        width: 65vw;
         height: auto;
     }
 
@@ -299,7 +301,6 @@ margin-right: 2rem;
         height: auto;
         width: 45vw;
         height: 100%;
-        background-color: #FF66C4;
     }
 
     .texto {
@@ -312,8 +313,8 @@ margin-right: 2rem;
     }
 
     .texto ul li {
-        font-size: 18px;
-        line-height: 25px;
+        font-size: 1.2rem;
+        line-height: 27px;
         margin-right: 60px;
         margin-left: 0;
     }
@@ -323,18 +324,18 @@ margin-right: 2rem;
     }
 
     .subtitles {
-        font-size: 24px;
+        font-size: 1.8rem;
         line-height: 28px;
     }
 
     .lightText li {
-        font-size: 2rem;
-        line-height: 28px;
+        font-size: 1.2rem;
+        line-height: 25px;
     }
 
     .previous {
-        font-size: 24px;
-        line-height: 24px;
+        font-size: 1.4rem;
+        line-height: 25px;
     }
 
     .me {
