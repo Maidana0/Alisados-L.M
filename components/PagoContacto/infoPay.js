@@ -12,8 +12,8 @@ const InfoPay = () => (
             <div className={`${icons.icons_ellipse} `}>
                 <Image
                     src={"/images/efectivo.svg"}
-                    width={162}
-                    height={162}
+                    width={145}
+                    height={145}
                     alt={"Efectivo"}
                     priority
                 />
@@ -23,8 +23,8 @@ const InfoPay = () => (
             <div className={`${icons.icons_ellipse} `}>
                 <Image
                     src={"/images/transferencia.svg"}
-                    width={162}
-                    height={162}
+                    width={145}
+                    height={145}
                     alt={"Transferencia"}
                     priority
                 />
@@ -33,8 +33,8 @@ const InfoPay = () => (
             <div className={`${icons.icons_ellipse} `}>
                 <Image
                     src={"/images/mercadopago.svg"}
-                    width={162}
-                    height={162}
+                    width={145}
+                    height={145}
                     alt={"Mercado Pago"}
                     priority
                 />

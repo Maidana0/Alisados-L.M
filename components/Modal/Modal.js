@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import styles from '@Fran&Miguel/styles/Modal.module.css'
 
