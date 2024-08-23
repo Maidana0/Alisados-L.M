@@ -9,18 +9,18 @@ export const Icons = () => <div className={styles.icons_container}>
         className={`${styles.icons_ellipse} ${styles.whatsapp}`}>
         <BsWhatsapp title='Whatsapp'
             alt={'Whatsapp'}
-            size={'2em'} />
+            size={'1.5em'} />
     </a>
     <a href='https://instagram.com/alisadoss.lm?igshid=Yjk4NWM2ZWVkMw==' target="_blank"
         className={`${styles.icons_ellipse} ${styles.instagram}`}>
         <BsInstagram title='Instagram'
             alt={'Instagram'}
-            size={'2em'} />
+            size={'1.5em'} />
     </a>
     <a href='https://m.facebook.com/111515650989942/' target="_blank" className={`${styles.facebook}`}>
         <BsFacebook title='Facebook'
             alt={'Facebook'}
-            size={'2.8em'}
+            size={'2.3em'}
         />
     </a>
 </div>
@@ -30,8 +30,8 @@ export const Icons = () => <div className={styles.icons_container}>
 export const Logo = () => <div className={logoLayout.logo_container}>
     <Image
         src={'logo.svg'}
-        width={65}
-        height={44}
+        width={48}
+        height={28}
         alt={'Alisados.LM'}
         priority
     />

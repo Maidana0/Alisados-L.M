@@ -14,13 +14,14 @@ export default function Anotaciones() {
                 </p>
             </div>
 
-            <div className={styles.right}>
+            <div className={styles.left}>
                 <h2 className={styles.titleContainer}>Cuidados post alisado</h2>
                 <p>
-                Antes de lavarlo darle una repasada de plancha para eliminar posibles marcas. Realizarse Baños de crema ya que el cabello se tiende a deshidratar y tenemos que devolver la humectación.
+                    Antes de lavarlo darle una repasada de plancha para eliminar posibles marcas.
                 </p>
+                <p>Realizarse Baños de crema ya que el cabello se tiende a deshidratar y tenemos que devolver la humectación.</p>
                 <p>
-                Secar con secador y aplicar protector térmico NO dormir con el pelo mojado ni húmedo
+                    Secar con secador y aplicar protector térmico NO dormir con el pelo mojado ni húmedo
                 </p>
             </div>
         </div>
