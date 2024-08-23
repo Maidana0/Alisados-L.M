@@ -5,8 +5,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    height: 5.8rem;
-    width: 100%;
+    height: 4rem;
     fill: #FF66C4;
     background: #FF66C4;
     box-shadow: 0px 5px 10px 0px #7B004C40;
@@ -16,30 +15,24 @@
 
 .logo_container {
     background: #FFFFFF;
-    width: 80px;
-    height: 90%;
-    margin-top: 5px;
+    padding: 14px 12px;
     border-radius: 100%;
     display: flex;
     align-items: center;
 }
 
-.logo_container img {
-    margin: auto;
-    object-fit: contain;
-}
-
-.nav_container{
+.nav_container {
     width: 75%;
     height: 100%;
 
 }
+
 .nav {
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content:space-around;
+    justify-content: space-around;
 }
 
 .nav_items {
@@ -56,7 +49,7 @@
     padding: 0 1.4rem;
     overflow: hidden;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
     text-align: center;
     cursor: pointer;
@@ -90,45 +83,63 @@
 
 @media (max-width: 780px) {
     .navbar {
-
         justify-content: space-between;
     }
-    .nav_container{
+
+    .backdrop {
         background: #a0407b41;
         position: fixed;
-        top: 5.8rem;
-        height: calc(100vh - 5.8rem);
+        top: 4rem;
+        height: calc(100vh - 4rem);
         width: 100%;
+        z-index: -1;
+    }
+
+    .nav_container {
+        position: fixed;
+        top: 0;
+        width: 90%;
         display: flex;
         justify-content: flex-end;
     }
+
     .nav {
         box-shadow: -1px 5px 50px 10px #7B004C40;
         width: 75%;
         flex-direction: column;
         background: #FF66C4;
         padding: 0 0 2rem;
-        border-radius: 0 0 0  30% ;
-        justify-content:center;
+        border-radius: 5% 0 0 10%;
+        justify-content: center;
         gap: 1.5rem;
     }
-    .nav_items{
+
+    .nav_items {
         flex-direction: column;
-        height: 75%;
+        justify-content: center;
+        max-height: 75%;
+        gap: 1rem;
     }
-    .nav_links{
-      width: 100%;
-      justify-content: center;
-      height: 5rem;
-      padding: 0 2.5rem;
+
+    .nav_links {
+        justify-content: center;
+        font-size: 16px;
+        padding: 1rem 2.5rem;
     }
+
     .nav_links::before {
         height: 3px;
         transition: transform 0.5s ease-in-out;
-    }    
+    }
+
     .nav_responsive {
         right: -100%;
     }
+
+    .nav_active {
+        right: 0
+    }
+
     .logo_container {
         margin-left: 60px;
     }
@@ -145,10 +156,10 @@
 
 
 .footer {
-    width: 100%;
     height: 5.5rem;
     display: flex;
     justify-content: center;
+    align-items: center;
     box-shadow: 0px -5px 10px 0px #7B004C40;
     background: #FF66C4;
     fill: #FF66C4;

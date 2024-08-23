@@ -4,6 +4,7 @@
     align-items: center;
     gap: 15px;
 }
+
 .icons_ellipse {
     display: flex;
     align-items: center;
@@ -15,12 +16,15 @@
     cursor: pointer;
 }
 
+.icons_container a {
+    transition: all ease .2s;
+}
+
 .whatsapp:hover {
     background-color: #25D366
 }
 
 .instagram:hover {
-
     background: linear-gradient(#405DE6, #5B51D8, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80, transparent);
 }
 
